@@ -1,0 +1,84 @@
+	table { 
+		font-size: 0.9em;
+		font-family: "Lucida Sans Unicode", verdana, tahoma, sans-serif;
+		width: 100%;
+		border-collapse: collapse; 
+		margin-bottom: 1em;
+	}
+
+	/* Zebra striping */
+	tr:nth-of-type(odd) { 
+		background: rgba(0, 145, 171, 0.05); 
+	}
+	
+	th {
+		background: #0091AB; 
+		color: white; 
+		letter-spacing: 1px;
+		text-shadow: 0 1px 0 #000;
+		-webkit-text-shadow: 0 1px 0 #000;
+		-moz-text-shadow: 0 1px 0 #000;
+		-ms-text-shadow: 0 1px 0 #000;
+		-o-text-shadow: 0 1px 0 #000;
+	}
+	td, th {
+		padding: 0.7em 0.4em; 
+		border: 1px solid #0091AB; 
+		text-align: left; 
+	}
+	td{
+		color: #000;
+	}
+
+	td[colspan="3"]{
+		text-align: center;
+		text-transform: uppercase;
+		color: #666;
+	}
+.container{
+	text-align: left;
+max-width:330px;
+margin:0 auto;
+padding:0% 1%;
+
+}
+
+.container h3{
+font-size:2em;
+margin:0.4em 0em 0.2em;
+color:#0091AB;
+}
+
+.field, .btn-submit{
+width:98%;
+display:block;
+border:1px solid #ccc;
+padding:1em 0em;
+}
+
+.field{
+text-indent:1em;
+}
+
+input[type=checkbox]{
+font-weight:bold;
+}
+
+.log_in div {
+color:#666;
+}
+.checkbox{
+margin:1em 0em;
+}
+
+
+.btn-submit{
+background-color:#0091AB;
+color:#fff;
+border:2px solid #0091A0;
+}
+
+.btn-submit:hover{
+background-color:#0091A0;
+}
+	

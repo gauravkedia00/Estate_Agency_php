@@ -1,0 +1,37 @@
+	table { 
+		font-size: 0.9em;
+		font-family: "Lucida Sans Unicode", verdana, tahoma, sans-serif;
+		width: 100%;
+		border-collapse: collapse; 
+		margin-bottom: 1em;
+	}
+
+	/* Zebra striping */
+	tr:nth-of-type(odd) { 
+		background: rgba(0, 145, 171, 0.05); 
+	}
+	
+	th {
+		background: #0091AB; 
+		color: white; 
+		letter-spacing: 1px;
+		text-shadow: 0 1px 0 #000;
+		-webkit-text-shadow: 0 1px 0 #000;
+		-moz-text-shadow: 0 1px 0 #000;
+		-ms-text-shadow: 0 1px 0 #000;
+		-o-text-shadow: 0 1px 0 #000;
+	}
+	td, th {
+		padding: 0.7em 0.4em; 
+		border: 1px solid #0091AB; 
+		text-align: left; 
+	}
+	td{
+		color: #000;
+	}
+
+	td[colspan="3"]{
+		text-align: center;
+		text-transform: uppercase;
+		color: #666;
+	}

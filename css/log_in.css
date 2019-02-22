@@ -1,0 +1,47 @@
+
+.container{
+	text-align: left;
+max-width:330px;
+margin:0 auto;
+padding:0% 1%;
+
+}
+
+.container h3{
+font-size:2em;
+margin:0.4em 0em 0.2em;
+color:#0091AB;
+}
+
+.field, .btn-submit{
+width:98%;
+display:block;
+border:1px solid #ccc;
+padding:1em 0em;
+}
+
+.field{
+text-indent:1em;
+}
+
+input[type=checkbox]{
+font-weight:bold;
+}
+
+.log_in div {
+color:#666;
+}
+.checkbox{
+margin:1em 0em;
+}
+
+
+.btn-submit{
+background-color:#0091AB;
+color:#fff;
+border:2px solid #0091A0;
+}
+
+.btn-submit:hover{
+background-color:#0091A0;
+}
